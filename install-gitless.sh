@@ -6,7 +6,7 @@ function fatalExit (){
 
 # an alternative URL that could be used: https://github.com/xtuple/nvm/tarball/master
 if [ "$NVM_SOURCE" == "" ]; then
-    NVM_SOURCE="https://raw.github.com/xtuple/nvm/master/nvm.sh"
+    NVM_SOURCE="https://raw.githubusercontent.com/xtuple/nvm/master/nvm.sh"
 fi
 
 if [ "$NVM_DIR" == "" ]; then
